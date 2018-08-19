@@ -63,7 +63,7 @@ A instalação inicial pode ser feita de duas formas, sendo:
 
 
 
-Após este comando 'vagrant up', o Vagrant ficará responsavel por baixar o sistema operacional ( neste caso Ubuntu Server 18.04 x64 ), configurar a máquina virtual no VirtualBox e posteriormente baixar, instalar e configurar todos os pacotes do script 'setup.sh' e 'virtualhosts.sh' (Lembre-se, para o virtualhosts proceder de forma correta, o seu projeto já deve está dentro da pasta 'projetos').
+Após este comando 'vagrant up', o Vagrant ficará responsavel por baixar o sistema operacional ( neste caso Ubuntu Server 18.04 x64 ), configurar a máquina virtual no VirtualBox e posteriormente baixar, instalar e configurar todos os pacotes do script 'setup.sh' e 'config.sh' (Lembre-se, para o virtualhosts proceder de forma correta, o seu projeto já deve está dentro da pasta 'projetos').
 
 Quando tudo estiver pronto, um servidor web estará disponível no endereço http://localhost:8080, e a instalação do PHPMyAdmin está em http://localhost:8080/phpmyadmin, para acessar utilize:
 
